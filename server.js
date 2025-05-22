@@ -6,6 +6,7 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   console.log('CI/CD Actions');
+  // test
   res.send('Hello from Express!');
 });
 
