@@ -5,6 +5,7 @@ const PORT = 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
+  console.log('CI/CD Actions');
   res.send('Hello from Express!');
 });
 
